@@ -1,3 +1,6 @@
+div {
+border: 1px solid black;
+}
 body{
     margin: 0;
     padding: 0;
@@ -6,15 +9,16 @@ body{
 .login{
     max-width: 340px;
     margin:10% auto;
-    background: #FFE4C4;
+    background: #FFffff;
 }
+
 .login h3{
     text-align: center;
     padding: 25px 10px;
-    background-color: #008000;
-    color: #fff;
-    font-size: 22px;
-    font-family: 'Gamja Flower', cursive;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 form{
@@ -27,15 +31,15 @@ form{
     padding: 1em;
     margin-top: 1.2em;
     color: #888;
-    font-size: 15px;
-    font-family: 'Gamja Flower', cursive;
+    font-size: 13px;
+    font-family: 'Arapey', serif;
 }
 .submitform{
-    width: 100%;
+    width: 40%;
     padding: 1.4em;
     margin: 1.5em 0;
     color: #888;
-    background-color:#DAA520 ;
+    background-color:#45FF00 ;
     border:none;
     color:#eee;
     border-bottom: 4px solid transparent;
@@ -48,25 +52,23 @@ form{
 form p{
     text-align: center;
     color: #888;
-    width: 30px;
+    width: 10px;
     margin: 10px auto 0;
     background: #f9f9f9;
     position: relative;
     bottom: 20px;
 }
-.border-p{
-    border-top: 1px solid #888;
-    margin: 10px 10px;
-}
 button{
     background-color: #3b5998;
-    width: 100%;
-    padding: 1.4em;
+    width: 40%;
+    padding: 1em;
     margin-bottom: 1em;
     color: #888; ;
     border:none;
     color:#eee;
-    border-bottom: 4px solid transparent;
+    border-bottom: 4px solid transparent;       
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
 }
 button:hover{
     opacity: 0.9;
